@@ -3,12 +3,15 @@ body {
     padding: 0;
     font-family: 'Inter';
     font-weight: 300;
-    letter-spacing: 0.15em;
 }
 
 #root {
     width: 100vw;
     height: 100vh;
+}
+
+.ls-sm {
+    letter-spacing: 0.15em;
 }
 
 .pageContainer {
