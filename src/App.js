@@ -1,10 +1,12 @@
 import './assets/global.css';
-import { HomePage } from './pages/Home';
+import { AboutMe } from './pages/AboutMe';
+import { Home } from './pages/Home';
 
 function App() {
   return (
     <>
-      <HomePage />
+      <Home />
+      <AboutMe />
     </>
   );
 }
