@@ -28,9 +28,20 @@ body {
 
 /* Home */
 .homeContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.25rem;
+}
+
+.full-name {
+    font-size: 1.75rem;
+}
+
+@media screen and (max-width: 575.98px) {
+    .homeContainer {
+        font-size: 1rem;
+    }
+    .full-name {
+        font-size: 1.15rem;
+    }
 }
 
 /* About Me */
