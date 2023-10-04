@@ -21,7 +21,7 @@ export function Experience() {
                             </div>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             <ul>
                                 <li>Implemented real-time Apache Flink Java application to perform pre-computed aggregations on transaction data for generating Selling Partner summarized reports, increasing aggregation types by 300%</li>
