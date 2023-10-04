@@ -102,7 +102,6 @@ body {
     .experienceContainer {
         width: 100%;
         font-size: 0.85rem;
-        padding: 0;
     }
     .company-logo {
         display: none;
@@ -130,7 +129,7 @@ body {
     .experienceContainer {
         width: 100%;
         font-size: 0.75rem;
-        padding: 0;
+        padding: 0.25rem;
     }
     .sectionHeading {
         margin-bottom: 0.5rem;
@@ -154,5 +153,5 @@ body {
 
 /* fullpage.js */
 .section{
-    height: 100vh;
+    height: 100% !important;
 }

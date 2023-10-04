@@ -33,7 +33,7 @@ const App = () => (
   <ReactFullpage
     render={({ state, fullpageApi }) => {
       return (
-        <div>
+        <div className="h-100">
           <div className="section"><Home /></div>
           <div className="section"><AboutMe /></div>
           <div className="section"><Experience /></div>
