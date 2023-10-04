@@ -4,6 +4,7 @@ body {
     font-family: 'Inter';
     font-weight: 300;
     background-color: #eeeeee;
+    font-size: 1.25rem;
 }
 
 #root {
@@ -27,10 +28,6 @@ body {
 }
 
 /* Home */
-.homeContainer {
-    font-size: 1.25rem;
-}
-
 .full-name {
     font-size: 1.75rem;
 }
@@ -54,7 +51,10 @@ body {
     width: 25%;
 }
 
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width: 767.98px) {
+    .aboutMeContainer {
+        font-size: 1rem;
+    }
     .bio-text {
         width: 90%;
         line-height: normal;
@@ -75,12 +75,81 @@ body {
     margin-right: 1.5rem;
 }
 
+.accordion-body {
+    font-size: 1rem;
+}
+
+.accordion-body ul {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .experienceContainer {
+        font-size: 1rem;
+    }
+    .accordion-body {
+        font-size: 0.85rem;
+    }
+    .accordion-body ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .accordion-button {
+        padding: 0.75rem;
+        font-size: 0.85rem;
+    }
+}
+
 @media screen and (max-width: 767.98px) {
     .experienceContainer {
         width: 100%;
-        font-size: 0.75rem;
+        font-size: 0.85rem;
+        padding: 0;
     }
     .company-logo {
-        margin-right: 0.5rem;
+        display: none;
+    }
+    .accordion-body {
+        font-size: 0.75rem;
+    }
+    .accordion-body ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .accordion-button {
+        padding: 0.75rem;
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sectionHeading {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .experienceContainer {
+        width: 100%;
+        font-size: 0.75rem;
+        padding: 0;
+    }
+    .sectionHeading {
+        margin-bottom: 0.5rem;
+    }
+    .company-logo {
+        display: none;
+    }
+    .accordion-body {
+        padding: 0.25rem 0.8rem;
+        font-size: 0.70rem;
+    }
+    .accordion-body ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .accordion-button {
+        padding: 0.75rem;
+        font-size: 0.70rem;
     }
 }

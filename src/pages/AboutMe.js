@@ -2,8 +2,8 @@ import headshot from '../assets/headshot.jpg'
 
 export function AboutMe() {
     return (
-        <div className="container pageContainer d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center">
-            <div className="bio-text fs-5 m-3">
+        <div className="container pageContainer aboutMeContainer d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center">
+            <div className="bio-text m-3">
                 <p className="sectionHeading">About Me</p>
                 <p>
                     Senior at Santa Clara University pursuing a B.S. in Computer Science and Engineering with a minor in Mathematics. 
