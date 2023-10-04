@@ -1,3 +1,22 @@
+/*!
+      * fullPage 4.0.20
+      * https://github.com/alvarotrigo/fullPage.js
+      *
+      * @license GPLv3 for open source use only
+      * or Fullpage Commercial License for commercial use
+      * http://alvarotrigo.com/fullPage/pricing/
+      *
+      * Copyright (C) 2018 http://alvarotrigo.com/fullPage/ - A project by Alvaro Trigo
+      */
+
+/*!
+ * @fullpage/react-fullpage 0.1.40
+ * https://github.com/alvarotrigo/react-fullpage
+ * @license https://github.com/alvarotrigo/react-fullpage#license
+ *
+ * Copyright (C) 2018 alvarotrigo.com - A project by Alvaro Trigo & Michael Walker
+ */
+
 /**
  * @license React
  * react-dom.production.min.js
