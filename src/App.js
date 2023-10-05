@@ -28,6 +28,7 @@ import './assets/global.css';
 import { Home } from './pages/Home';
 import { AboutMe } from './pages/AboutMe';
 import { Experience } from './pages/Experience';
+import { Projects } from "./pages/Projects";
 
 const App = () => (
   <ReactFullpage
@@ -37,6 +38,7 @@ const App = () => (
           <div className="section"><Home /></div>
           <div className="section"><AboutMe /></div>
           <div className="section"><Experience /></div>
+          <div className="section"><Projects /></div>
         </div>
       );
     }}

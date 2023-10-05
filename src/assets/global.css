@@ -120,17 +120,17 @@ body {
 }
 
 @media screen and (max-width: 425px) {
+    .experienceContainer {
+        width: 100%;
+        font-size: 0.75rem;
+        padding: 0.25rem;
+    }
     .sectionHeading {
         margin-bottom: 0.5rem;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .experienceContainer {
-        width: 100%;
-        font-size: 0.75rem;
-        padding: 0.25rem;
-    }
     .sectionHeading {
         margin-bottom: 0.5rem;
     }
@@ -148,6 +148,61 @@ body {
     .accordion-button {
         padding: 0.75rem;
         font-size: 0.70rem;
+    }
+}
+
+
+/* Projects */
+.projectsContainer {
+    width: 50%;
+}
+
+.project-row {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.project-logo-container {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.project-logo {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.project-text-container {
+    font-size: 1rem;
+    flex-grow: 1;
+    width: 75%;
+}
+
+@media screen and (max-width: 768px) {
+    .project-text-container {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .project-logo-container {
+        width: 55%;
+    }
+    .skills {
+        display: none;
+    }
+    .project-text-container p {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .project-text-container p {
+        margin: 0;
     }
 }
 
