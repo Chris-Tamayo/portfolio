@@ -24,10 +24,12 @@ export function Experience() {
                     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             <ul>
-                                <li>Implemented real-time Apache Flink Java application to perform pre-computed aggregations on transaction data for generating Selling Partner summarized reports, increasing aggregation types by 300%</li>
-                                <li>Developed highly flexible aggregation engine, utilizing AWS AppConfig configurations to dynamically specify aggregate attributes and aggregation types (e.g., daily, monthly, yearly) to easily expand aggregation use cases</li>
-                                <li>Ingested business events from AWS Kinesis Data Stream, persisted aggregate data in AWS DynamoDB with optimistic locking to handle concurrent updates, deployed application in AWS Kinesis Data Analytics</li>
-                                <li>Created and managed AWS resources using AWS CDK to define cloud infrastructure as code in TypeScript</li>
+                                <li>Developed Apache Flink Java application to expand transaction data aggregations, increasing types by 300%</li>
+                                <li>Implemented AWS AppConfig-driven aggregation engine for dynamic specification of aggregation attributes and types (e.g., daily, monthly, or yearly), enabling easy addition of new aggregations</li>
+                                <li>Optimized performance by mapping aggregation attributes from ingested business events to a simplified model</li>
+                                <li>Persisted data in AWS DynamoDB with optimistic locking, ensuring data consistency during concurrent updates</li>
+                                <li>Enabled real-time data processing and analytics by deploying Flink application in AWS Kinesis Data Analytics</li>
+                                <li>Created and managed AWS resources efficiently by defining infrastructure as code in TypeScript using AWS CDK</li>
                             </ul>
                         </div>
                     </div>
@@ -51,8 +53,8 @@ export function Experience() {
                         <div class="accordion-body">
                             <ul>
                                 <li>Migrated high-traffic payments reporting API (3B+ monthly requests) to retrieve financial data from a newly introduced backend query service, improving extensibility and reducing operational workload</li>
-                                <li>Manipulated request data to call new query service APIs and transformed and deserialized response data in Java</li>
-                                <li>Constructed unit tests with &gt;95% line coverage using JUnit and Mockito testing frameworks</li>
+                                <li>Manipulated request data using Java to integrate with the new query service APIs</li>
+                                <li>Transformed and deserialized query service response data, ensuring backwards compatibility with legacy system</li>
                                 <li>Authored and presented comprehensive design document outlining design decisions and migration strategy</li>
                             </ul>                        
                         </div>
