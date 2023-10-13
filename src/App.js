@@ -5,15 +5,18 @@ import { Home } from './pages/Home';
 import { AboutMe } from './pages/AboutMe';
 import { Experience } from './pages/Experience';
 import { Projects } from "./pages/Projects";
+import { NavBar } from "./components/NavBar";
 
 const fullpageOptions = {
+  menu: '#menu',
   anchors: ['home', 'about', 'experience', 'projects'],
-  navigation: true,
-  navigationTooltips: ['Home', 'About', 'Experience', 'Projects'],
+  // navigation: true,
+  // navigationTooltips: ['Home', 'About', 'Experience', 'Projects'],
 };
 
 const App = () => (
   <>
+    <NavBar />
     <ReactFullpage
       {...fullpageOptions}
       render={({ state, fullpageApi }) => {

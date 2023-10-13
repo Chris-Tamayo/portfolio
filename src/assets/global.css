@@ -25,13 +25,22 @@ body {
     letter-spacing: 0.15em;
 }
 
-.ml-auto {
-    margin-left: auto !important;
+/* Navbar */
+.navbar .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
 }
 
-/* Navbar */
-.navbar {
-    font-size: 1rem;
+.nav-link:focus {
+    color: var(--bs-nav-link-color);
+}
+
+a:hover {
+    color: black !important;
+}
+
+.active a {
+    color: black !important;
 }
 
 .fp-tooltip  {
