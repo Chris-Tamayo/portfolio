@@ -25,6 +25,25 @@ body {
     letter-spacing: 0.15em;
 }
 
+.ml-auto {
+    margin-left: auto !important;
+}
+
+/* Navbar */
+.navbar {
+    font-size: 1rem;
+}
+
+.fp-tooltip  {
+    color: black !important;
+}
+
+@media screen and (max-width: 767.98px) {
+    #fp-nav {
+        display: none;
+    }
+}
+
 /* Home */
 .full-name {
     font-size: 1.75rem;
