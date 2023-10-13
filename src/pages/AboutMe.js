@@ -8,6 +8,7 @@ export function AboutMe() {
                 <p>
                     Senior at Santa Clara University pursuing a B.S. in Computer Science and Engineering with a minor in Mathematics. 
                     Work experience lies in back-end scalable and distributed systems, but I also enjoy working on personal front-end projects.
+                    Most recently a Software Development Engineer Intern at Amazon (Summer 2023). 
                     Looking for challenging opportunities to help me grow both as a person and engineer. 
                 </p>
             </div>
