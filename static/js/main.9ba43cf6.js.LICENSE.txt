@@ -1,4 +1,10 @@
 /*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*!
       * fullPage 4.0.20
       * https://github.com/alvarotrigo/fullPage.js
       *
