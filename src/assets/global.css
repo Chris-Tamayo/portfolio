@@ -52,7 +52,20 @@ a:hover {
     .navbar .nav-link {
         font-size: 0.85rem;
     }
-    nav {}
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.contactLogo {
+    margin-right: 1.25rem;
+    max-width: 40px;
 }
 
 /* Home */
@@ -239,4 +252,8 @@ a:hover {
 /* fullpage.js */
 .section{
     height: 100% !important;
+}
+
+.fp-watermark {
+    margin-bottom: 1rem;
 }
