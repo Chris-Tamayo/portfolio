@@ -5,22 +5,22 @@ import Navbar from 'react-bootstrap/Navbar';
 export function NavBar() {
   return (
     <Navbar fixed="top" expand="md" className="navbar">
-      <Container fluid className="m-2">
+      <Container fluid className="m-2 justify-content-end">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <ul id="menu" class="navbar-nav ms-auto">
                 <li data-menuanchor="home" class="nav-item">
                      <a class="nav-link" href="#home">Home</a>
-                 </li>
-                 <li data-menuanchor="about" class="nav-item">
-                     <a class="nav-link" href="#about">About Me</a>
-                 </li>
-                 <li data-menuanchor="experience" class="nav-item">
-                     <a class="nav-link" href="#experience">Experience</a>
-                 </li>
-                 <li data-menuanchor="projects" class="nav-item">
-                     <a class="nav-link" href="#projects">Projects</a>
-                 </li>
+                </li>
+                <li data-menuanchor="about" class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li data-menuanchor="experience" class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li data-menuanchor="projects" class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
              </ul>
         </Navbar.Collapse>
       </Container>

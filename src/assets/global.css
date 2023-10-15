@@ -30,6 +30,7 @@ body {
     font-size: 1rem;
     font-weight: 500;
     color: #777777;
+    text-align: end;
 }
 
 .nav-link:focus {
@@ -48,6 +49,10 @@ a:hover {
     #menu {
         font-size: 0.75rem;
     }
+    .navbar .nav-link {
+        font-size: 0.85rem;
+    }
+    nav {}
 }
 
 /* Home */
