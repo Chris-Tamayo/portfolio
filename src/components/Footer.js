@@ -24,11 +24,11 @@ export function Footer() {
             <a href="mailto:chriswtamayo@gmail.com" target="_blank">
                 Email 
             </a>
-            <span> // </span>
+            <span> | </span>
             <a href="https://www.linkedin.com/in/christopher-tamayo/" target="_blank">
                 LinkedIn
             </a>
-            <span> // </span>
+            <span> | </span>
             <a href="https://github.com/Chris-Tamayo" target="_blank">
                  GitHub
             </a>
