@@ -26,6 +26,16 @@ body {
 }
 
 /* Navbar */
+nav {
+    background-color: #eeeeee;
+    padding: 0 !important;
+}
+
+nav a {
+    text-decoration: none !important;
+    color: #777777;
+}
+
 .navbar .nav-link {
     font-size: 1rem;
     font-weight: 500;
@@ -64,6 +74,8 @@ footer {
 }
 
 .contactLogo {
+    background-color: #eeeeee;
+    border-radius: 100% !important;
     margin-right: 1.25rem;
     max-width: 40px;
 }

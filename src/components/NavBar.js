@@ -4,8 +4,11 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export function NavBar() {
   return (
-    <Navbar fixed="top" expand="md" className="navbar">
-      <Container fluid className="m-2 justify-content-end">
+    <Navbar fixed="top" expand="md" className="navbar shadow-sm">
+      <Container fluid className="navbar-container m-2 justify-content-between">
+        <div className="align-items-center">
+          <a href="#home"><p className="m-0 fw-bold">CT</p></a>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <ul id="menu" class="navbar-nav ms-auto">
