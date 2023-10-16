@@ -21,17 +21,7 @@ import mail from '../assets/mail.png'
 export function Footer() {
     return (
         <footer className="m-4 fs-6">
-            <a href="mailto:chriswtamayo@gmail.com" target="_blank">
-                Email 
-            </a>
-            <span> | </span>
-            <a href="https://www.linkedin.com/in/christopher-tamayo/" target="_blank">
-                LinkedIn
-            </a>
-            <span> | </span>
-            <a href="https://github.com/Chris-Tamayo" target="_blank">
-                 GitHub
-            </a>
+            <p className="m-0">&copy;2023 Christopher Tamayo</p>
         </footer>
     )
 }
