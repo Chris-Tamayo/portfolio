@@ -73,6 +73,11 @@ footer {
     z-index: 1030;
 }
 
+footer a, footer span {
+    color: #777777;
+    text-decoration: none;
+}
+
 .contactLogo {
     background-color: #eeeeee;
     border-radius: 100% !important;
@@ -267,5 +272,5 @@ footer {
 }
 
 .fp-watermark {
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.5rem;
 }
