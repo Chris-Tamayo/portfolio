@@ -1,13 +1,29 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import sun from '../assets/sun.png'
+import moon from '../assets/moon.png';
+import { useState } from 'react';
 
 export function NavBar() {
+  const [modeImg, setModeImg] = useState(moon);
+
+  function handleClick() {
+    let darkModeToggle = document.getElementById("dark-mode-toggle");
+    document.body.classList.toggle("dark-mode");
+    if (document.body.classList.contains("dark-mode")) {
+      console.log("switching to dark mode")
+      setModeImg(sun);
+    } else {
+      console.log("switching to light mode")
+      setModeImg(moon);
+    }
+  }
+
   return (
     <Navbar fixed="top" expand="md" className="navbar shadow-sm">
       <Container fluid className="navbar-container m-2 justify-content-between">
         <div className="align-items-center">
-          <a href="#home"><p className="m-0 fw-bold">CT</p></a>
+          <img src={modeImg} id="dark-mode-toggle" onClick={handleClick}/>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

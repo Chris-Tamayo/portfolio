@@ -1,10 +1,31 @@
+:root {
+    --primary-font-color: black;
+    --secondary-font-color: #777777;
+    --primary-background-color: #eeeeee;
+    --secondary-background-color: white;
+    --border-color: #dee2e6;
+    --accordion-header-background-color: #cfe2ff;
+    --accordion-header-text-color: #052c65;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Inter';
     font-weight: 300;
-    background-color: #eeeeee;
+    color: var(--primary-font-color);
+    background-color: var(--primary-background-color);
     font-size: 1.25rem;
+}
+
+.dark-mode {
+    --primary-font-color: #eeeeee;
+    --secondary-font-color: #777777;
+    --primary-background-color: #333333;
+    --secondary-background-color: rgb(40, 40, 40);
+    --border-color: #383838;
+    --accordion-header-background-color: #182231;
+    --accordion-header-text-color: #dceaff;
 }
 
 #root {
@@ -27,19 +48,19 @@ body {
 
 /* Navbar */
 nav {
-    background-color: #eeeeee;
+    background-color: var(--primary-background-color);
     padding: 0 !important;
 }
 
 nav a {
     text-decoration: none !important;
-    color: #777777;
+    color: var(--secondary-font-color);
 }
 
 .navbar .nav-link {
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 500;
-    color: #777777;
+    color: var(--secondary-font-color);
     text-align: end;
 }
 
@@ -48,11 +69,18 @@ nav a {
 }
 
 a:hover {
-    color: black !important;
+    color: var(--primary-font-color) !important;
 }
 
 .active a {
-    color: black !important;
+    color: var(--primary-font-color) !important;
+}
+
+#dark-mode-toggle {
+    max-width: 25px;
+}
+
+.navbar-toggler-icon {
 }
 
 @media screen and (max-width: 767.98px) {
@@ -74,11 +102,11 @@ footer {
 }
 
 footer p {
-    color: #777777;
+    color: var(--secondary-font-color);
 }
 
 .contactLogo {
-    background-color: #eeeeee;
+    background-color: white;
     border-radius: 100% !important;
     margin-right: 1.25rem;
     max-width: 40px;
@@ -141,6 +169,22 @@ footer p {
 
 .accordion-body ul {
     margin-bottom: 0;
+}
+
+.accordion-item, .accordion-button {
+    color: var(--primary-font-color);
+    background-color: var(--secondary-background-color);
+    border-color: var(--border-color);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--accordion-header-text-color);
+    background-color: var(--accordion-header-background-color);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--border-color);
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23777777'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 @media screen and (max-width: 1024px) {
@@ -226,9 +270,14 @@ footer p {
     display: flex;
     align-items: center;
     margin: 0.5rem 0;
-    background-color: #ffffff;
+    background-color: var(--secondary-background-color);
     border-radius: 10px;
 }
+
+/* .project-row a {
+    color: black !important;
+    background-color: white;
+} */
 
 .project-logo-container {
     width: 25%;
@@ -278,4 +327,9 @@ footer p {
 
 .fp-watermark {
     margin-bottom: 0.5rem;
+}
+
+.fp-watermark a {
+    color: var(--primary-font-color);
+    background-color: var(--secondary-background-color) !important;
 }
