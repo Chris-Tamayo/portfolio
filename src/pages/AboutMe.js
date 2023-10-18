@@ -15,15 +15,15 @@ export function AboutMe() {
                     Looking for challenging opportunities to help me grow both as a person and engineer. 
                 </p>
                 <div>
-                <a href="mailto:chriswtamayo@gmail.com" target="_blank">
-                 <img className="contactLogo" src={mail} />
-             </a>
-             <a href="https://www.linkedin.com/in/christopher-tamayo/" target="_blank">
-                 <img className="contactLogo" src={linkedin} />
-             </a>
-             <a href="https://github.com/Chris-Tamayo" target="_blank">
-                 <img className="contactLogo" src={github} />
-             </a>
+                <a href="mailto:chriswtamayo@gmail.com" target="_blank" rel="noreferrer">
+                    <img className="contactLogo" src={mail} alt="Email logo" />
+                </a>
+                <a href="https://www.linkedin.com/in/christopher-tamayo/" target="_blank" rel="noreferrer">
+                    <img className="contactLogo" src={linkedin} alt="LinkedIn logo"/>
+                </a>
+                <a href="https://github.com/Chris-Tamayo" target="_blank" rel="noreferrer">
+                    <img className="contactLogo" src={github} alt="Github logo"/>
+                </a>
                 </div>
             </div>
             <img className="headshot m-3 h-auto rounded-circle" src={headshot} alt="Professional headshot" />

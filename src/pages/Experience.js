@@ -11,7 +11,7 @@ export function Experience() {
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <div className="company-logo">
                                 <img className="w-100 h-auto rounded-circle" src={amazonLogo} alt="Company logo" />
-                            </div>      
+                            </div>  
                             <div>
                                 <p className="m-0 button-text">
                                     <span className="fw-semibold">Amazon, Software Development Engineer Intern</span><br/>

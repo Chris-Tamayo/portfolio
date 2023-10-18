@@ -7,7 +7,7 @@ export function Projects() {
             <p className="sectionHeading d-inline-block">Projects</p>
             <div className="project-row">
                 <div className="project-logo-container h-100">
-                    <img className="w-100 project-logo" src={portfolio} />
+                    <img className="w-100 project-logo" src={portfolio} alt="Portfolio project cover"/>
                 </div>
                 <div className="project-text-container m-3">
                     <p>
@@ -16,13 +16,13 @@ export function Projects() {
                         <span className="skills fst-italic">React, JavaScript, HTML/CSS</span>
                     </p>
                     <p>This website! Created to display work experience, projects, and contact information</p>
-                    <a href="https://github.com/Chris-Tamayo/portfolio" target="_blank">View Code</a>
+                    <a href="https://github.com/Chris-Tamayo/portfolio" target="_blank" rel="noreferrer">View Code</a>
                 </div>
             </div>
 
             <div className="project-row">
                 <div className="project-logo-container h-100">
-                    <img className="w-100 project-logo" src={smartwalk} />
+                    <img className="w-100 project-logo" src={smartwalk} alt="Smartwalk project cover"/>
                 </div>
                 <div className="project-text-container m-3">
                     <p>
@@ -34,7 +34,7 @@ export function Projects() {
                         Inrix Hackathon<br/>
                         Website that routes the safest pedestrian paths between two locations
                     </p>
-                    <a href="https://devpost.com/software/safewalk-0yf4ue?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank">View Project</a> | <a href="https://github.com/rjquiban/inrix-hack" target="_blank">View Code</a>
+                    <a href="https://devpost.com/software/safewalk-0yf4ue?ref_content=my-projects-tab&ref_feature=my_projects" target="_blank" rel="noreferrer">View Project</a> | <a href="https://github.com/rjquiban/inrix-hack" target="_blank" rel="noreferrer">View Code</a>
                 </div>
             </div>
         </div>
