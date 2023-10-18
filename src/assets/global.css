@@ -119,6 +119,9 @@ footer p {
     .headshot {
         width: 50%;
     }
+    .contactLogo {
+        max-width: 30px;
+    }
 }
 
 /* Experience */
@@ -186,6 +189,9 @@ footer p {
     }
     .sectionHeading {
         margin-bottom: 0.5rem;
+    }
+    .contactLogo {
+        max-width: 25px;
     }
 }
 
