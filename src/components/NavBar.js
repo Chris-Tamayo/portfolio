@@ -11,7 +11,6 @@ export function NavBar() {
     let darkModeToggle = document.getElementById("dark-mode-toggle");
     document.body.classList.toggle("dark-mode");
     if (document.body.classList.contains("dark-mode")) {
-      console.log("switching to dark mode")
       setModeImg(sun);
     } else {
       console.log("switching to light mode")
