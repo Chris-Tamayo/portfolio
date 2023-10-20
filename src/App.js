@@ -10,8 +10,6 @@ import { NavBar } from "./components/NavBar";
 const fullpageOptions = {
   menu: '#menu',
   anchors: ['home', 'about', 'experience', 'projects'],
-  // navigation: true,
-  // navigationTooltips: ['Home', 'About', 'Experience', 'Projects'],
 };
 
 const App = () => (

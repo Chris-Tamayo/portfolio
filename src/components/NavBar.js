@@ -44,30 +44,3 @@ export function NavBar() {
     </Navbar>
   );
 }
-
-// export function NavBar() {
-//     return (
-//     <nav id="navbar" class="navbar fixed-top navbar-expand-lg mx-4 my-2">
-//         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-//             <span class="navbar-toggler-icon"></span>
-//         </button>
-
-//         <div class="collapse navbar-collapse" id="navbarContent">
-//             <ul id="menu" class="navbar-nav ms-auto">
-//                 <li data-menuanchor="home" class="nav-item">
-//                     <a class="nav-link" href="#home">Home</a>
-//                 </li>
-//                 <li data-menuanchor="about" class="nav-item">
-//                     <a class="nav-link" href="#about">About Me</a>
-//                 </li>
-//                 <li data-menuanchor="experience" class="nav-item">
-//                     <a class="nav-link" href="#experience">Experience</a>
-//                 </li>
-//                 <li data-menuanchor="projects" class="nav-item">
-//                     <a class="nav-link" href="#projects">Projects</a>
-//                 </li>
-//             </ul>
-//         </div>
-//     </nav>
-//     )
-// }
