@@ -6,7 +6,6 @@ import { AboutMe } from './pages/AboutMe';
 import { Experience } from './pages/Experience';
 import { Projects } from "./pages/Projects";
 import { NavBar } from "./components/NavBar";
-import { Footer } from "./components/Footer";
 
 const fullpageOptions = {
   menu: '#menu',

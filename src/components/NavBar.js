@@ -8,7 +8,6 @@ export function NavBar() {
   const [modeImg, setModeImg] = useState(moon);
 
   function handleClick() {
-    let darkModeToggle = document.getElementById("dark-mode-toggle");
     document.body.classList.toggle("dark-mode");
     if (document.body.classList.contains("dark-mode")) {
       setModeImg(sun);
@@ -22,7 +21,7 @@ export function NavBar() {
     <Navbar fixed="top" expand="md" className="navbar shadow-sm">
       <Container fluid className="navbar-container m-2 justify-content-between">
         <div className="align-items-center">
-          <img src={modeImg} id="dark-mode-toggle" onClick={handleClick}/>
+          <img src={modeImg} id="dark-mode-toggle" alt="mode" onClick={handleClick}/>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
