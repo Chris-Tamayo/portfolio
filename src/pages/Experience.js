@@ -24,12 +24,11 @@ export function Experience() {
                     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body">
                             <ul>
-                                <li>Developed Apache Flink Java application to expand transaction data aggregations, increasing types by 300%</li>
-                                <li>Implemented AWS AppConfig-driven aggregation engine for dynamic specification of aggregation attributes and types (e.g., daily, monthly, or yearly), enabling easy addition of new aggregations</li>
-                                <li>Optimized performance by mapping aggregation attributes from ingested business events to a simplified model</li>
-                                <li>Persisted data in AWS DynamoDB with optimistic locking, ensuring data consistency during concurrent updates</li>
-                                <li>Enabled real-time data processing and analytics by deploying Flink application in AWS Kinesis Data Analytics</li>
-                                <li>Created and managed AWS resources efficiently by defining infrastructure as code in TypeScript using AWS CDK</li>
+                                <li>Developed distributed Apache Flink Java application to compute transaction data summaries over various time ranges for Amazon Selling Partners, increasing aggregation types by 300%</li>
+                                <li>Implemented configurable aggregation engine for dynamic specification of attributes using Java and AWS AppConfig</li>
+                                <li>Persisted data in AWS DynamoDB with optimistic locking in Java, ensuring data consistency during concurrent updates</li>
+                                <li>Deployed Flink application in AWS Kinesis Data Analytics to enable real-time data processing and analytics</li>
+                                <li>Defined infrastructure as code in TypeScript using AWS CDK to effectively create and manage AWS resources</li>
                             </ul>
                         </div>
                     </div>
